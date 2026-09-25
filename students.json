@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1790140930651",
+    "name": "Raya",
+    "email": "raya@gmail.com",
+    "rollNumber": "118",
+    "course": "Computer Science",
+    "grade": "8.32",
+    "status": "Active",
+    "createdAt": "2026-09-23T05:22:10.651Z"
+  },
+  {
+    "id": "1",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@university.edu",
+    "rollNumber": "CS-2024-001",
+    "course": "Computer Science",
+    "grade": "A (3.9 GPA)",
+    "status": "Active",
+    "createdAt": "2026-09-08T05:19:35.303Z"
+  },
+  {
+    "id": "2",
+    "name": "Sophia Chen",
+    "email": "sophia.chen@university.edu",
+    "rollNumber": "CS-2024-042",
+    "course": "Software Engineering",
+    "grade": "A- (3.7 GPA)",
+    "status": "Active",
+    "createdAt": "2026-09-11T05:19:35.305Z"
+  },
+  {
+    "id": "3",
+    "name": "Marcus Johnson",
+    "email": "m.johnson@university.edu",
+    "rollNumber": "DS-2024-018",
+    "course": "Data Science & AI",
+    "grade": "B+ (3.4 GPA)",
+    "status": "Active",
+    "createdAt": "2026-09-15T05:19:35.305Z"
+  },
+  {
+    "id": "4",
+    "name": "Elena Rostova",
+    "email": "elena.rostova@university.edu",
+    "rollNumber": "IT-2023-099",
+    "course": "Information Technology",
+    "grade": "A (4.0 GPA)",
+    "status": "Graduated",
+    "createdAt": "2026-08-14T05:19:35.305Z"
+  },
+  {
+    "id": "5",
+    "name": "Priya Patel",
+    "email": "priya.patel@university.edu",
+    "rollNumber": "ECE-2024-015",
+    "course": "Electronics & Communication",
+    "grade": "B (3.1 GPA)",
+    "status": "Inactive",
+    "createdAt": "2026-09-20T05:19:35.305Z"
+  }
+]

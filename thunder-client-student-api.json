@@ -1,0 +1,137 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "Student Management API",
+  "dateExported": "2026-09-24T00:00:00.000Z",
+  "version": "1.1",
+  "folders": [],
+  "requests": [
+    {
+      "_id": "student-health",
+      "colId": "student-management-api",
+      "containerId": "",
+      "name": "Health Check",
+      "url": "http://localhost:3000/api/health",
+      "method": "GET",
+      "sortNum": 1,
+      "created": 1727136000000,
+      "modified": 1727136000000,
+      "headers": [],
+      "body": {},
+      "tests": []
+    },
+    {
+      "_id": "student-get-all",
+      "colId": "student-management-api",
+      "containerId": "",
+      "name": "Get All Students",
+      "url": "http://localhost:3000/api/students",
+      "method": "GET",
+      "sortNum": 2,
+      "created": 1727136000000,
+      "modified": 1727136000000,
+      "headers": [],
+      "body": {},
+      "tests": []
+    },
+    {
+      "_id": "student-get-one",
+      "colId": "student-management-api",
+      "containerId": "",
+      "name": "Get Student By ID",
+      "url": "http://localhost:3000/api/students/1",
+      "method": "GET",
+      "sortNum": 3,
+      "created": 1727136000000,
+      "modified": 1727136000000,
+      "headers": [],
+      "body": {},
+      "tests": []
+    },
+    {
+      "_id": "student-create",
+      "colId": "student-management-api",
+      "containerId": "",
+      "name": "Create Student",
+      "url": "http://localhost:3000/api/students",
+      "method": "POST",
+      "sortNum": 4,
+      "created": 1727136000000,
+      "modified": 1727136000000,
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"name\": \"Liam Vance\",\n  \"email\": \"liam.vance.2026@university.edu\",\n  \"rollNumber\": \"CS-2026-089\",\n  \"course\": \"Computer Science\",\n  \"age\": 21,\n  \"grade\": \"A- (3.6 GPA)\",\n  \"marks\": {\n    \"DSA\": 86,\n    \"python\": 91,\n    \"java\": 78,\n    \"javascript\": 88\n  },\n  \"status\": \"Active\"\n}"
+      },
+      "tests": []
+    },
+    {
+      "_id": "student-update",
+      "colId": "student-management-api",
+      "containerId": "",
+      "name": "Update Student",
+      "url": "http://localhost:3000/api/students/1",
+      "method": "PUT",
+      "sortNum": 5,
+      "created": 1727136000000,
+      "modified": 1727136000000,
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"course\": \"Artificial Intelligence\",\n  \"grade\": \"A+ (4.0 GPA)\",\n  \"status\": \"Active\"\n}"
+      },
+      "tests": []
+    },
+    {
+      "_id": "student-delete",
+      "colId": "student-management-api",
+      "containerId": "",
+      "name": "Delete Student",
+      "url": "http://localhost:3000/api/students/1",
+      "method": "DELETE",
+      "sortNum": 6,
+      "created": 1727136000000,
+      "modified": 1727136000000,
+      "headers": [],
+      "body": {},
+      "tests": []
+    },
+    {
+      "_id": "student-performance-analysis",
+      "colId": "student-management-api",
+      "containerId": "",
+      "name": "AI Performance Analysis",
+      "url": "http://localhost:3000/api/students/1/performance-analysis",
+      "method": "POST",
+      "sortNum": 7,
+      "created": 1727136000000,
+      "modified": 1727136000000,
+      "headers": [],
+      "body": {},
+      "tests": []
+    },
+    {
+      "_id": "student-study-plan",
+      "colId": "student-management-api",
+      "containerId": "",
+      "name": "AI Seven-Day Study Plan",
+      "url": "http://localhost:3000/api/students/1/study-plan",
+      "method": "POST",
+      "sortNum": 8,
+      "created": 1727136000000,
+      "modified": 1727136000000,
+      "headers": [],
+      "body": {},
+      "tests": []
+    }
+  ]
+}

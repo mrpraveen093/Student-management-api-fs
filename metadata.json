@@ -1,0 +1,6 @@
+{
+  "name": "Student Management Portal",
+  "description": "Beginner-friendly React frontend for Node.js & Express Student Management REST API with full CRUD operations and API documentation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
